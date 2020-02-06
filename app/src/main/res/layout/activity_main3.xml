@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6BB347"
+
+    tools:context=".Main3Activity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:text="18 Educational Android \n Apps for Teachers \n" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:id="@+id/txt2"
+            style="@style/Activity3s"
+            android:layout_width="match_parent"
+
+            android:text="\n Androi \n Note Taking \n Apps "
+
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/Activity3s"
+            android:layout_width="match_parent"
+
+            android:text="\n\n\Android \n Portafolio \n Apps"
+
+            android:textSize="10dp" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/Activity3s"
+            android:layout_width="match_parent"
+            android:text="\n\n\Android \n Presetatioon \n Apps"
+
+            android:textSize="10dp" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/Activity3s"
+            android:layout_width="match_parent"
+
+            android:text="\n\n\Android \n References  \n Apps"
+
+            android:textSize="10dp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/Activity3s"
+            android:layout_width="match_parent"
+
+            android:text="\n\n\Android \n Video  \n Apps"
+
+            android:textSize="10dp"/>
+
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/Activity3s"
+            android:layout_width="match_parent"
+
+            android:text="\n\n\Android \n Mind Mapping  \n Apps"
+
+            android:textSize="10dp"/>
+
+    </LinearLayout>
+    <!--todo layout de los botones a acomodar-->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="251dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="251dp"
+            android:layout_height="155dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="160dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="160dp"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewi1"
+                    style="@style/Activity3i"
+
+                    android:background="@drawable/googlekepp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/textViewi2"
+                    style="@style/Activity3i"
+
+                    android:background="@drawable/evernote" />
+
+                <TextView
+                    android:id="@+id/textViewi3"
+                    style="@style/Activity3i"
+
+                    android:background="@drawable/onenote" />
+
+            </LinearLayout>
+            <!--todo: primer layout de los botones con imagenes-->
+            <LinearLayout
+                android:layout_width="255dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="160dp"
+
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textViewt1"
+                    style="@style/Activity3i"
+
+                    android:text="Google Keep"
+                    android:textSize="10dp" />
+
+
+                <TextView
+                    android:id="@+id/textViewt2"
+                    style="@style/Activity3i"
+
+                    android:text="Evernote"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/textViewt3"
+                    style="@style/Activity3i"
+
+                    android:text="Evernote"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+            <!--todo: primera linea de texto-->
+        </LinearLayout>
+        <!--todo: primer contenedor de el paquete-->
+
+
+
+
+    </LinearLayout>
+    <!--todo: primer layout completo-->
+    <LinearLayout
+    android:layout_width="251dp"
+    android:layout_height="90dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginRight="160dp"
+    android:layout_marginBottom="20dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="251dp"
+        android:layout_height="155dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="160dp"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewti1"
+                style="@style/Activity3i"
+
+                android:background="@drawable/googlekepp"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewit2"
+                style="@style/Activity3i"
+
+                android:background="@drawable/evernote" />
+
+            <TextView
+                android:id="@+id/textViewit3"
+                style="@style/Activity3i"
+
+                android:background="@drawable/onenote" />
+
+        </LinearLayout>
+        <!--todo: primer layout de los botones con imagenes-->
+        <LinearLayout
+            android:layout_width="255dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="160dp"
+
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textViewtt1"
+                style="@style/Activity3i"
+
+                android:text="Google Keep"
+                android:textSize="10dp" />
+
+
+            <TextView
+                android:id="@+id/textViewtt2"
+                style="@style/Activity3i"
+
+                android:text="Evernote"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textViewtt3"
+                style="@style/Activity3i"
+
+                android:text="Evernote"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+        <!--todo: primera linea de texto-->
+    </LinearLayout>
+    <!--todo: primer contenedor de el paquete-->
+</LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="251dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="251dp"
+            android:layout_height="155dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="160dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="160dp"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewtti1"
+                    style="@style/Activity3i"
+
+                    android:background="@drawable/googlekepp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/textViewitt2"
+                    style="@style/Activity3i"
+
+                    android:background="@drawable/evernote" />
+
+                <TextView
+                    android:id="@+id/textViewitt3"
+                    style="@style/Activity3i"
+
+                    android:background="@drawable/onenote" />
+
+            </LinearLayout>
+            <!--todo: primer layout de los botones con imagenes-->
+            <LinearLayout
+                android:layout_width="255dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="160dp"
+
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textViewttt1"
+                    style="@style/Activity3i"
+
+                    android:text="Google Keep"
+                    android:textSize="10dp" />
+
+
+                <TextView
+                    android:id="@+id/textViewttt2"
+                    style="@style/Activity3i"
+
+                    android:text="Evernote"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/textViewttt3"
+                    style="@style/Activity3i"
+
+                    android:text="Evernote"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+            <!--todo: primera linea de texto-->
+        </LinearLayout>
+        <!--todo: primer contenedor de el paquete-->
+    </LinearLayout>
+    <!--todo fin frl tercero -->
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="251dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="251dp"
+            android:layout_height="155dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="160dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="160dp"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewttti1"
+                    style="@style/Activity3i"
+
+                    android:background="@drawable/googlekepp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/textViewittt2"
+                    style="@style/Activity3i"
+
+                    android:background="@drawable/evernote" />
+
+                <TextView
+                    android:id="@+id/textViewittt3"
+                    style="@style/Activity3i"
+
+                    android:background="@drawable/onenote" />
+
+            </LinearLayout>
+            <!--todo: primer layout de los botones con imagenes-->
+            <LinearLayout
+                android:layout_width="255dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="160dp"
+
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textViewtttt1"
+                    style="@style/Activity3i"
+
+                    android:text="Google Keep"
+                    android:textSize="10dp" />
+
+
+                <TextView
+                    android:id="@+id/textViewtttt2"
+                    style="@style/Activity3i"
+
+                    android:text="Evernote"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/textViewtttt3"
+                    style="@style/Activity3i"
+
+                    android:text="Evernote"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+            <!--todo: primera linea de texto-->
+        </LinearLayout>
+        <!--todo: primer contenedor de el paquete-->
+    </LinearLayout>
+    <!--todo fin frl 4 -->
+
+
+
+
+    <LinearLayout
+        android:layout_width="251dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="251dp"
+            android:layout_height="155dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="160dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="160dp"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewttmi1"
+                    style="@style/Activity3i"
+
+                    android:background="@drawable/googlekepp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/textViewitmt2"
+                    style="@style/Activity3i"
+
+                    android:background="@drawable/evernote" />
+
+                <TextView
+                    android:id="@+id/textViewittm3"
+                    style="@style/Activity3i"
+
+                    android:background="@drawable/onenote" />
+
+            </LinearLayout>
+            <!--todo: primer layout de los botones con imagenes-->
+            <LinearLayout
+                android:layout_width="255dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="160dp"
+
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textViewttmt1"
+                    style="@style/Activity3i"
+
+                    android:text="Google Keep"
+                    android:textSize="10dp" />
+
+
+                <TextView
+                    android:id="@+id/textViewttmt2"
+                    style="@style/Activity3i"
+
+                    android:text="Evernote"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/textViewtttm3"
+                    style="@style/Activity3i"
+
+                    android:text="Evernote"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+            <!--todo: primera linea de texto-->
+        </LinearLayout>
+        <!--todo: primer contenedor de el paquete-->
+    </LinearLayout>
+    <!--todo fin frl quinto -->
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="251dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="251dp"
+            android:layout_height="155dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="160dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="160dp"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewt6ti1"
+                    style="@style/Activity3i"
+
+                    android:background="@drawable/googlekepp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/textViewitt62"
+                    style="@style/Activity3i"
+
+                    android:background="@drawable/evernote" />
+
+                <TextView
+                    android:id="@+id/textViewitt63"
+                    style="@style/Activity3i"
+
+                    android:background="@drawable/onenote" />
+
+            </LinearLayout>
+            <!--todo: primer layout de los botones con imagenes-->
+            <LinearLayout
+                android:layout_width="255dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="160dp"
+
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textViewttt61"
+                    style="@style/Activity3i"
+
+                    android:text="Google Keep"
+                    android:textSize="10dp" />
+
+
+                <TextView
+                    android:id="@+id/textViewtt6t2"
+                    style="@style/Activity3i"
+
+                    android:text="Evernote"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/textViewt6tt3"
+                    style="@style/Activity3i"
+
+                    android:text="Evernote"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+            <!--todo: primera linea de texto-->
+        </LinearLayout>
+        <!--todo: primer contenedor de el paquete-->
+    </LinearLayout>
+    <!--todo fin frl tercero -->
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>
+<!--todo: aqui se termina el layout original-->
